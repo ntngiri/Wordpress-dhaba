@@ -1,0 +1,505 @@
+$ok-green: #a3b745;
+$fail-red: #e14d43;
+$warning-orange: rgb(240, 173, 78);
+
+.oxy-one-click-checklist {
+  h4 {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .result {
+    text-align: center;
+  }
+
+  .result-fail {
+    background-color: $fail-red;
+    color: white;
+  }
+
+  .result-warning {
+    background-color: $warning-orange;
+    color: white;
+  }
+
+  .result-ok {
+    background-color: $ok-green;
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    margin: 20px 0px;
+  }
+}
+
+.oxy-one-click-packages {
+  .package-count {
+    display: inline;
+    top: -3px;
+    margin-left: 5px;
+    margin-right: 20px;
+    position: relative;
+    padding: 4px 10px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background: #777;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .package-browser {
+    .packages {
+      clear: both;
+      padding: 0 0 100px;
+
+      .package {
+        float: left;
+        margin: 0 4% 4% 0;
+        position: relative;
+        width: 30.6%;
+        border: 1px solid #dedede;
+        -webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,.1);
+        box-shadow: 0 1px 1px -1px rgba(0,0,0,.1);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+        &.active {
+          .package-name {
+            background: #2f2f2f;
+            color: #fff;
+          }
+        }
+
+        .package-screenshot {
+          display: block;
+          overflow: hidden;
+          position: relative;
+          -webkit-transition: opacity .2s ease-in-out;
+          transition: opacity .2s ease-in-out;
+
+          img {
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            -webkit-transform: translateZ(0);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+          }
+        }
+
+        .package-screenshot:after {
+          content: '';
+          display: block;
+          padding-top: 66.66666%;
+        }
+      }
+
+      .package-name {
+        font-size: 15px;
+        font-weight: 600;
+        height: 18px;
+        margin: 0;
+        padding: 15px;
+        -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+        box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        background: #fff;
+        background: rgba(255,255,255,.65);
+      }
+
+      .package-actions {
+        // background: rgba(49,49,49,.7);
+        border-left: 1px solid rgba(0,0,0,.05);
+        opacity: 1;
+        -webkit-transition: opacity .1s ease-in-out;
+        transition: opacity .1s ease-in-out;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 38px;
+        padding: 9px 10px 0;
+      }
+      .package:nth-child(3n) {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+.oxy-one-click-package-popup {
+  margin-top: 10px;
+
+  .package-screenshots {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 55%;
+    max-width: 880px;
+    text-align: center;
+    .screenshot {
+      height: 490px;
+      overflow-y: scroll;
+      border: 1px gray solid;
+      padding: 2px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .package-info {
+    width: 40%;
+    float: left;
+
+    h4 {
+      margin: 8px 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    .package-name {
+      color: #222;
+      font-size: 32px;
+      font-weight: 100;
+      margin: 10px 0 0;
+      line-height: 1.3;
+    }
+    .package-description {
+      color: #555;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .package-plugins {
+      border-top: 3px solid #eee;
+
+      .result {
+        text-align: center;
+      }
+
+      .result-fail {
+        background-color: $fail-red;
+        color: white;
+      }
+
+      .result-ok {
+        background-color: $ok-green;
+        color: white;
+      }
+    }
+  }
+
+  .package-actions {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 25px 5px;
+    background: #f3f3f3;
+    z-index: 30;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+
+    form {
+      display: inline;
+    }
+
+    a, button {
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+
+    .delete-package {
+      color: #a00;
+      position: absolute;
+      right: 10px;
+      bottom: 5px;
+      text-decoration: none;
+      border-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: 0 0;
+    }
+
+    .delete-package:hover {
+      background: #d54e21;
+      color: #fff;
+      border-color: #d54e21;
+    }
+  }
+}
+
+.oxy-one-click-install {
+  .package-panel {
+    position: relative;
+    overflow: auto;
+    margin: 16px 0;
+    padding: 23px 10px 0;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    font-size: 13px;
+    line-height: 2.1em;
+
+    .screenshot {
+      width: 35%;
+      float: left;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .package-info {
+      width: 63%;
+      float: left;
+      margin-left: 10px;
+
+      h4 {
+        margin: 10px 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+      .package-name {
+        color: #222;
+        font-size: 32px;
+        font-weight: 100;
+        margin: 0;
+        line-height: 1.3;
+      }
+      .package-description {
+        color: #555;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .ui-progressbar {
+        height: 30px;
+        position: relative;
+        margin-top: 5px;
+      }
+      .progress-label {
+        position: absolute;
+        left: 50%;
+        top: 2px;
+        font-weight: bold;
+        text-shadow: 1px 1px 0 #fff;
+      }
+    }
+  }
+  #messages {
+    clear: both;
+  }
+}
+
+.oxy-one-click-complete {
+    h4 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+  .hero-panel {
+    width: 100%;
+    display: inline-block;
+    margin: 16px 0;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    font-size: 13px;
+    line-height: 2.1em;
+
+    .theme-image {
+      margin-top: 10px;
+      margin-right: 10px;
+      width: 40%;
+      float: right;
+      img {
+        width: 100%;
+      }
+    }
+
+    .about-text {
+      margin-top: 10px;
+      width: 55%;
+      float: left;
+      margin: 10px 10px;
+      padding-top: 50px;
+      padding-left: 20px;
+      p {
+        line-height: 1.6em;
+        font-size: 24px;
+      }
+    }
+
+    .final-results {
+      td, th {
+        text-align: center;
+      }
+    }
+
+    .button-bar {
+      text-align: center;
+      width: 100%;
+      float: left;
+      padding: 10px 0px;
+      background: #f3f3f3;
+      border-top: 1px solid #eee;
+
+    }
+  }
+
+  .install-list {
+    td {
+      vertical-align: middle;
+      -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+    }
+
+    .result-log {
+      padding: 0px;
+    }
+  }
+
+  .result {
+    text-align: center;
+  }
+
+  .result-fail {
+    background-color: $fail-red;
+    color: white;
+  }
+
+  .result-warning {
+    background-color: $warning-orange;
+    color: white;
+  }
+
+  .result-ok {
+    background-color: $ok-green;
+    color: white;
+  }
+
+}
+
+.oxy-one-click-remove {
+  .hero-panel {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+
+    .warning-text p {
+      font-size: 26px;
+      padding: 0px 40px;
+      .warning {
+        color: $fail-red;
+      }
+    }
+  }
+  #remove-content-form {
+    text-align: center;
+    margin-top: 20px;
+    .button-danger {
+      background: #d54e21;
+      color: #fff;
+      border-color: #d54e21;
+    }
+  }
+}
+
+.oxy-one-click-remove-content {
+  .result {
+    width: 10%;
+    text-align: center;
+  }
+
+  .result-fail {
+    background-color: $fail-red;
+    color: white;
+  }
+
+  .result-warning {
+    background-color: $warning-orange;
+    color: white;
+  }
+
+  .result-ok {
+    background-color: $ok-green;
+    color: white;
+  }
+}
+
+.import-list {
+  width: 100%;
+}
+
+.status-error {
+    color: red;
+}
+
+.status-ok {
+    color: green;
+}
+
+.row-error {
+    td {
+        color: red;
+    }
+}
+
+.row-ok {
+    td {
+        color: green;
+    }
+}
+
+.biglabel {
+  font-size: 18px;
+  padding-bottom: 24px;
+  clear: both;
+  display: block;
+}
+
+.one-click-finished {
+  position: relative;
+  margin: 25px 40px 0 20px;
+  max-width: 1050px;
+  font-size: 15px;
+
+  h1 {
+    margin: .2em 400px 0 0;
+    color: #333;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+  }
+
+}
+
+.oneclick-message-warning {
+  overflow: hidden;
+  position: relative;
+  border-left-color: $warning-orange !important;
+}

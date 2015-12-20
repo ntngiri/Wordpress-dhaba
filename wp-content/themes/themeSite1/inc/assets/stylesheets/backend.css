@@ -1,0 +1,15 @@
+/*Shows indicator for activated skin*/
+
+span.oxy_activated{
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #a3b745;
+    border-radius: 50%;
+    margin-left:25px;
+    margin-top: 5px;
+}
+
+.customize-control-image img {
+    width: auto;
+}

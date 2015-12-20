@@ -1,0 +1,33 @@
+{
+    "name": "oxygenna/oxygenna-woocommerce",
+    "type": "wordpress-theme",
+    "description": "Oxygenna WooCommerce Boostrap",
+    "license": "ThemeForest",
+    "authors": [
+        {
+            "name": "John Langan",
+            "email": "john.langan@oxygenna.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "oxygenna/oxygenna-php-standards": "1.0.*",
+        "oxygenna/oxygenna-ant-theme-build": "1.0.*",
+        "composer/installers": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:oxygenna/oxygenna-php-standards.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:oxygenna/oxygenna-ant-theme-build.git"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

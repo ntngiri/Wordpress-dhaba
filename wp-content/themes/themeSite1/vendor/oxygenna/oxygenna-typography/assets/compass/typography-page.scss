@@ -1,0 +1,58 @@
+#fontstack-list {
+  .fetching-fonts img {
+    vertical-align: middle;
+  }
+}
+
+.font-select {
+  width: 300px;
+  margin-right: 10px;
+}
+
+#add-font-to-stack {
+  margin-right: 10px;
+}
+#fontstack-list {
+  margin-bottom: 24px;
+  .widefat td, .widefat td ol, .widefat td p, .widefat td ul {
+    margin-top: 0;
+  }
+  .elements li {
+    background: #dfdfdf;
+    float: left;
+    padding: 4px 16px;
+    clear: both;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    border-radius: 3px;
+    &:before, &:after {
+      position: absolute;
+      display: block;
+      height: 27px;
+      line-height: 27px;
+      top: 0;
+      width: 16px;
+      text-align: center;
+      color: #999;
+    }
+    &:before {
+      content: "<";
+      left: 0;
+    }
+    &:after {
+      content: ">";
+      right: 0;
+    }
+  }
+  .button {
+    margin-bottom: 12px;
+    min-width: 100px;
+    margin-left: 12px;
+  }
+  tfoot {
+    background: #ececec;
+    td {
+      padding-top: 24px;
+    }
+  }
+}

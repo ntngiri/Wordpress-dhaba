@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ${copyright}
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ${theme} Frontend Translation File 1.17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-18 06:00-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: artifacts/wordpress/build/tag.php:15
+msgid "All posts tagged:"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/woocommerce.php:184
+msgid "View Details"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/woocommerce.php:266
+msgid " Products"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/woocommerce.php:366
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:76
+msgid "Square Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:77
+msgid "Hexagon Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:78
+msgid "Rectangle Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:80
+msgid "Square Small Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:81
+msgid "Hexagon Small Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:82
+msgid "Rectangle Small Image"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:155
+msgid "Primary Navigation"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:156
+msgid "Account Navigation"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:205
+msgid "No more items to load."
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:252
+msgid "reply"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:279
+msgid "Your name *"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:280
+msgid "Your email *"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:281
+msgid "Website"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:284
+msgid "Your message"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:399
+msgid "Read more"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:726
+msgid "Search"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:766
+#: artifacts/wordpress/build/partials/portfolio/pagination/next_prev.php:6
+#: artifacts/wordpress/build/partials/blog/posts/normal/nav-single.php:20
+msgid "Previous"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:767
+#: artifacts/wordpress/build/partials/portfolio/pagination/next_prev.php:9
+#: artifacts/wordpress/build/partials/blog/posts/normal/nav-single.php:27
+msgid "Next"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:838
+msgid "Next page"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:839
+msgid "Previous page"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:1012
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:1014
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/frontend.php:1666
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/OxyWidgetTwitter.php:27
+msgid "Display an official Twitter Embedded Timeline widget."
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/OxyWidgetTwitter.php:221
+#, php-format
+msgid ""
+"You need to <a href=\"%1$s\" target=\"_blank\">create a widget at Twitter."
+"com</a>, and then enter your widget id (the long number found in the URL of "
+"your widget's config page) in the field below. <a href=\"%2$s\" target="
+"\"_blank\">Read more</a>."
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/OxyWidgetTwitter.php:248
+msgid "Link Color (hex):"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/OxyWidgetTwitter.php:255
+msgid "Border Color (hex):"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/OxyWidgetTwitter.php:262
+msgid "Timeline Theme:"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/default_overrides.php:28
+msgid "Recent Posts"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/default_overrides.php:88
+msgid "Archives"
+msgstr ""
+
+#: artifacts/wordpress/build/inc/options/widgets/default_overrides.php:97
+msgid "Select Month"
+msgstr ""
+
+#: artifacts/wordpress/build/comments.php:26
+msgid "Join the conversation"
+msgstr ""
+
+#: artifacts/wordpress/build/comments.php:40
+msgid "&larr; Older"
+msgstr ""
+
+#: artifacts/wordpress/build/comments.php:41
+msgid "Newer &rarr;"
+msgstr ""
+
+#: artifacts/wordpress/build/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: artifacts/wordpress/build/search.php:15
+msgid "Results for:"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/password-form.php:17
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/password-form.php:20
+msgid "Password:"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-related.php:42
+msgid "Related Posts"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-header.php:18
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-search.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-details.php:38
+msgid "No comments"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-details.php:38
+msgid "1 comment"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-details.php:38
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:7
+msgid "Nothing Found"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:13
+msgid "Sorry, no posts were found for this category."
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:16
+msgid "Sorry, no posts found in that timeframe"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:19
+msgid "Sorry, no posts from that author were found"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:22
+#, php-format
+msgid "Sorry, no posts were tagged with  \"%1$s\""
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:25
+#, php-format
+msgid "Sorry, no search results were found for  \"%1$s\""
+msgstr ""
+
+#: artifacts/wordpress/build/partials/blog/posts/normal/post-no-posts.php:28
+msgid "Sorry, nothing found"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/content-account.php:26
+msgid "create an account menu in the admin options"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/countdown/countdown.php:7
+msgid "days"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/countdown/countdown.php:15
+msgid "hours"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/countdown/countdown.php:23
+msgid "minutes"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/countdown/countdown.php:31
+msgid "seconds"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:22
+msgid "View /"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:25
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:70
+msgid "All"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:34
+msgid "Sort"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:40
+msgid "Default"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:41
+msgid "Title"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:42
+msgid "Date"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:43
+msgid "Comments"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:50
+msgid "Order"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:56
+msgid "Ascending"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:57
+msgid "Descending"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/portfolio/filters.php:64
+msgid "Category"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/headings/heading-page.php:7
+#: artifacts/wordpress/build/partials/shortcodes/headings/heading-blog.php:6
+msgid "home"
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/headings/heading-page.php:27
+#: artifacts/wordpress/build/partials/shortcodes/headings/heading-blog.php:90
+msgid "Results for "
+msgstr ""
+
+#: artifacts/wordpress/build/partials/shortcodes/headings/heading-blog.php:15
+msgid "blog"
+msgstr ""
